@@ -29,13 +29,13 @@
 #define MOB_DESPAWN_DISTANCE 256
 
 // Server game mode: 0 - survival; 1 - creative; 2 - adventure; 3 - spectator
-#define GAMEMODE 0
+#define GAMEMODE 1
 
 // Max render distance, determines how many chunks to send
 #define VIEW_DISTANCE 5
 
 // Time between server ticks in microseconds (default = 1s)
-#define TIME_BETWEEN_TICKS 50000
+#define TIME_BETWEEN_TICKS 100000
 
 // Calculated from TIME_BETWEEN_TICKS
 #define TICKS_PER_SECOND ((float)1000000 / TIME_BETWEEN_TICKS)
